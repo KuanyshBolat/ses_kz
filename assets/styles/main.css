@@ -730,14 +730,16 @@ body{
     align-items: center;
 }
 .cart__img{
-    max-width: 80px;
-    max-height: 80px;
+    width: 85px;
+    height: 85px;
+    border: 1px solid #E6E4E4;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 .cart__img img{
-    height: 80px;
-    width: 80px;
-    border-radius: 5px;
-    border: 2px solid #E6E4E4;
+    max-height: 80px !important;
+    max-width: 80px !important;
 }
 .cart__info-item{
     height: 100px;
