@@ -642,6 +642,34 @@ body{
     color: #FC911F;
 }
 
+.org__img img{
+    max-width: 238px;
+    max-height: 238px;
+}
+.org__list{
+    display: flex;
+    flex-direction: column;
+}
+.org__item{
+    display: flex;
+    padding: 10px 10px;
+    border: 1px solid #E6E4E4;
+    margin-bottom: 20px;
+    min-height: 260px;
+    align-items: center;
+}
+.org__info{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 200px;
+    max-height: 200px;
+}
+.org__owner span{
+    color: #FC911F;
+}
+
 
 .chair__img img{
     max-width: 238px;
