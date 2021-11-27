@@ -698,3 +698,42 @@ body{
 .chair__owner span{
     color: #FC911F;
 }
+
+
+.cart__block{
+    border: 1px solid #E6E4E4;
+    width: 70%;
+    min-height: 500px;
+    border-radius: 3px;
+}
+.cart__title{
+    width: 100%;
+    border-bottom: 1px solid #E6E4E4;
+    min-height: 35px;
+    font-size: 18px;
+    line-height: calc(21/ 18 * 100%);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+.cart__list{
+    display: flex;
+    flex-direction: column;
+}
+.cart__list > :not(:last-child){
+    border-bottom: 1px solid #E6E4E4;
+}
+.cart__item{
+    padding: 10px 10px;
+    min-height: 160px;
+}
+.cart__img{
+    max-width: 80px;
+    max-height: 80px;
+}
+.cart__img img{
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid #E6E4E4;
+}
