@@ -20,5 +20,6 @@ from ses_django import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('auth_custom.urls')),
+    path('', include('business.urls')),
     path('', views.index)
 ]
